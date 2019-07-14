@@ -125,6 +125,9 @@
     <!-- Should the pinner service pin the Home application? -->
     <bool name="config_pinnerHomeApp">false</bool>
 
+    <!-- Is the battery LED intrusive? Used to decide if there should be a disable option -->
+    <bool name="config_intrusiveBatteryLed">true</bool>
+
     <!-- Indicate whether closing the lid causes the device to go to sleep and opening
          it causes the device to wake up -->
     <bool name="config_lidControlsSleep">true</bool>
