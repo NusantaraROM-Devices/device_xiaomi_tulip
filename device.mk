@@ -325,6 +325,7 @@ PRODUCT_COPY_FILES += \
 # Prebuilts
 PRODUCT_PACKAGES += \
     GCam \
+    RetroMusic \
     GalleryGo
 
 # QMI
