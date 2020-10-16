@@ -324,6 +324,7 @@ PRODUCT_COPY_FILES += \
 
 # Prebuilts
 PRODUCT_PACKAGES += \
+    GCam \
     GalleryGo
 
 # QMI
