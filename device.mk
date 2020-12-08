@@ -322,6 +322,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/qti_whitelist.xml:system/etc/sysconfig/qti_whitelist.xml
 
+# Prebuilts
+PRODUCT_PACKAGES += \
+    GalleryGo
+
 # QMI
 PRODUCT_PACKAGES += \
     libjson
