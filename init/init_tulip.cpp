@@ -115,8 +115,8 @@ void vendor_load_properties()
     property_override("dalvik.vm.heapmaxfree", heapmaxfree);
 
     // Safetyet Workaround
-    const char *fingerprint = "Xiaomi/dipper/dipper:8.1.0/OPM1.171019.011/V9.5.5.0.OEAMIFA:user/release-keys";
-    const char *description = "dipper-user 8.1.0 OPM1.171019.011 V9.5.5.0.OEAMIFA release-keys";
+    const char *fingerprint = "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys";
+    const char *description = "walleye-user 8.1.0 OPM1.171019.011 4448085 release-keys";
 
     full_property_override("build.fingerprint", fingerprint);
     full_property_override("build.description", description);
