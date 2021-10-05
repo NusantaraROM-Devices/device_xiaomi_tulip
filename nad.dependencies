@@ -1,0 +1,16 @@
+[
+  {
+    "remote": "github",
+    "repository": "NusantaraROM-Devices/vendor_xiaomi_tulip",
+    "target_path": "vendor/xiaomi/tulip",
+    "branch": "11",
+    "depth" : "1"
+  },
+  {
+    "remote": "github",
+    "repository": "NusantaraROM-Devices/kernel_xiaomi_tulip",
+    "target_path": "kernel/xiaomi/sdm660",
+    "branch": "11",
+    "depth" : "1"
+  }
+]
