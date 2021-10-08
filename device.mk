@@ -328,7 +328,6 @@ PRODUCT_PACKAGES += \
     android.hardware.power.stats@1.0-service.mock
 
 PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/configs/perf/perf-profile0.conf:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perf-profile0.conf \
     $(DEVICE_PATH)/configs/powerhint_sdm636.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
 
 # Protobuf
