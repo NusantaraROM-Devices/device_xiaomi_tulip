@@ -1,7 +1,7 @@
 [
    {
     "remote":       "github",
-    "repository"  : "Avarice12/vendor_xiaomi_tulip",
+    "repository"  : "NusantaraROM-Devices/vendor_xiaomi_tulip",
     "target_path" : "vendor/xiaomi/tulip",
     "branch":       "12"
   },
