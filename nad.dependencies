@@ -7,9 +7,9 @@
   },
   {
     "remote":      "github",
-    "repository":  "NusantaraROM-Devices/kernel_xiaomi_tulip",
+    "repository":  "okta-10/mystic_kernel_sdm660-4.4",
     "target_path": "kernel/xiaomi/sdm660",
-    "branch":      "12"
+    "branch":      "Mystic-4.4"
   },
   {
     "remote":      "github",
