@@ -63,6 +63,9 @@ KERNEL_TOOLCHAIN := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-prelude/bi
 # QCOM hardware
 BOARD_USES_QCOM_HARDWARE := true
 
+# Camera
+MALLOC_SVELTE_FOR_LIBC32 := true
+
 # ANT+
 BOARD_ANT_WIRELESS_DEVICE := "qualcomm-hidl"
 
