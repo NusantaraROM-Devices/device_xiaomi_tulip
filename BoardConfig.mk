@@ -64,6 +64,7 @@ KERNEL_TOOLCHAIN := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-prelude/bi
 BOARD_USES_QCOM_HARDWARE := true
 
 # Camera
+MALLOC_SVELTE := true
 MALLOC_SVELTE_FOR_LIBC32 := true
 
 # ANT+
