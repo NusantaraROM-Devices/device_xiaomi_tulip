@@ -41,6 +41,8 @@
 #include "vendor_init.h"
 #include "property_service.h"
 
+using ::android::base::SetProperty;
+
 char const *heapstartsize;
 char const *heapgrowthlimit;
 char const *heapsize;
@@ -92,6 +94,13 @@ void property_override(char const prop[], char const value[], bool add = true)
     }
 }
 
+void property_override_dual(char const system_prop[], char const vendor_prop[],
+    char const value[])
+{
+    property_override(system_prop, value);
+    property_override(vendor_prop, value);
+}
+
 void set_avoid_gfxaccel_config() {
     struct sysinfo sys;
     sysinfo(&sys);
@@ -116,4 +125,8 @@ void vendor_load_properties()
 
     // Misc
     property_override("ro.apex.updatable", "false");
+
+    // fingerprint
+    property_override("ro.build.description", "walleye-user 8.1.0 OPM1.171019.011 4448085 release-keys");
+    property_override_dual("ro.build.fingerprint", "ro.vendor.build.fingerprint", "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys");
 }
